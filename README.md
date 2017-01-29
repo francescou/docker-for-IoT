@@ -4,7 +4,8 @@ Docker for Internet of Things
 
 ## modules
 
-- **fluentd** fluentd docker image
+- **fluentd** fluentd docker image for ARM
+- **mqtt-broker** mosca docker image for ARM
 - **nodemcu-ldr** lua code to run on NodeMCU ESP8266. Publish LDR sensor data on MQTT
 - **nodemcu-rgb** lua code to run on NodeMCU ESP8266. Subscribe to MQTT *sensors/ldr* and *status/switch* topics, then automatically adapt the light color
 - **spy** monitor light value using websockets
