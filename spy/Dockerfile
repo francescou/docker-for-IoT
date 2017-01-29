@@ -1,4 +1,4 @@
-FROM node:7-slim
+FROM hypriot/rpi-node:7-slim
 
 COPY ./app/ /app/
 

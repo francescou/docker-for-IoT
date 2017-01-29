@@ -12,4 +12,4 @@ docker service create \
   --log-opt fluentd-address=127.0.0.1:24224 \
   --limit-cpu 1 \
   --limit-memory 64m \
-  grafana/grafana:4.1.1
+  fg2it/grafana-armhf:v4.1.1

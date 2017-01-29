@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM hypriot/rpi-python:2.7
 MAINTAINER Francesco Uliana <francesco@uliana.it>
 RUN pip install virtualenv
 COPY . /app

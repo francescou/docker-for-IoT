@@ -12,7 +12,7 @@ docker service create \
     --log-opt fluentd-address=127.0.0.1:24224 \
     --limit-cpu 1 \
     --limit-memory 64m \
-    traefik:v1.1.2-alpine \
+    hypriot/rpi-traefik:v1.1.2 \
     --logLevel=DEBUG \
     --docker \
     --docker.swarmmode \
