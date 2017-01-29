@@ -1,0 +1,21 @@
+{
+  "name": "static",
+  "authors": [
+    "Francesco Uliana <francesco@uliana.it>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-resource": "^1.6.1"
+  }
+}

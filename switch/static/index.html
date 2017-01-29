@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AngularJS</title>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<style>
+
+    body {
+        text-align: center
+    }
+
+    button {
+        font-size: 72px;
+        padding: 15px;
+        margin: 20px 0;
+        border: 0;
+        background: #AAA;
+        color: white
+    }
+
+</style>
+</head>
+<body ng-app="app">
+    <div ng-controller="SwitchController">
+        <button ng-click="setStatus(!status)">{{status ? "spegni" : "accendi"}}</button>
+    </div>
+</body>
+</html>
