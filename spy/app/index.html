@@ -1,0 +1,21 @@
+<style>
+
+h1 {
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    margin: 100px 0;
+    font-size: 120px;
+}
+</style>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io('/');
+  socket.on('news', function (data) {
+    document.getElementById('value').textContent = data.value;
+  });
+</script>
+
+
+<h1 id="value"></h1>
